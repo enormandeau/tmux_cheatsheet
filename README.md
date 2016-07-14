@@ -4,7 +4,7 @@ Useful tmux infos, commands and config
 
 ## Why tmux?
 
-tmux plays the same role as screen, only better. screen is dead, long live tmux!
+*screen is dead, long live tmux!* tmux plays the same role as screen, only better.
 
 ## Installing
 
