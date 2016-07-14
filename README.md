@@ -37,8 +37,6 @@ Because of our configuration, you won't be able to exit tmux using `Ctrl-D`, whi
 logout
 ```
 
-You can also create the following alias in your `~/.bashrc` file: `alias lo='logout'` to reduce this to two keystrokes.
-
 ## Why reinvent the wheel?
 
 The two following cheatsheets are absolutely great, so I let them deal with the details of how to use tmux. I also add a link to the official manual.
@@ -49,7 +47,10 @@ The two following cheatsheets are absolutely great, so I let them deal with the 
 
 ## Suggested aliases
 
+Some aliases to add to your `~/.bashrc/` or equivalent file:
+
 - `alias ta='tmux attach'`
 - `alias tn='tmux new -s'`
+- `alias lo='logout'`
 
 You can then use `ta` to attach to tmux and `tn <session-name>` to create a new session.
