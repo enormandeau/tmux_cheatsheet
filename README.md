@@ -39,14 +39,13 @@ logout
 
 You can also create the following alias in your `~/.bashrc` file: `alias lo='logout'` to reduce this to two keystrokes.
 
-## 
+## Why reinvent the wheel?
 
+The two following cheatsheets are absolutely great, so I let them deal with the details of how to use tmux. I also add a link to the official manual.
 
-
-
-
-
-
+- [tmux shortcuts & cheatsheet](https://gist.github.com/MohamedAlaa/2961058)
+- [Tmux Cheat Sheet & Quick Reference](https://tmuxcheatsheet.com/)
+- [Official tmux manual](http://man.openbsd.org/OpenBSD-current/man1/tmux.1)
 
 ## Suggested aliases
 
@@ -54,4 +53,3 @@ You can also create the following alias in your `~/.bashrc` file: `alias lo='log
 - `alias tn='tmux new -s'`
 
 You can then use `ta` to attach to tmux and `tn <session-name>` to create a new session.
-
